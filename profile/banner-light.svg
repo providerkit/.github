@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="220" viewBox="0 0 880 220" role="img" aria-labelledby="title">
+  <title id="title">providerkit</title>
+  <rect x=".5" y=".5" width="879" height="219" rx="12" fill="#FAFBFC" stroke="#D8DEE4"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="40" y="118" fill="#17202B" font-size="68" font-weight="700" letter-spacing="-2">providerkit</text>
+    <text x="43" y="160" fill="#526170" font-size="22">providerkit.dev</text>
+  </g>
+  
+      <g transform="translate(625 5) scale(3.5)">
+        <g fill="none" stroke="#526170" stroke-width="4" stroke-linecap="round">
+          <path d="M10 14L29 21M10 32H29M10 50L29 43"/>
+        </g>
+        <path d="M32 12Q44 32 32 52Q20 32 32 12Z" fill="#087F76"/>
+        <path d="M40 21H54M40 32H54M40 43H54" fill="none" stroke="#087F76" stroke-width="4" stroke-linecap="round"/>
+      </g>
+</svg>
