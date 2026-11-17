@@ -1,23 +1,11 @@
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/providerkit/.github/main/profile/banner-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/providerkit/.github/main/profile/banner-light.svg">
-    <img alt="providerkit" src="https://raw.githubusercontent.com/providerkit/.github/main/profile/banner-light.svg" width="100%">
-  </picture>
-</p>
+# <img src="https://raw.githubusercontent.com/providerkit/providerkit/main/brand/providerkit-mark-128.png" alt="" width="36" height="36" align="absmiddle"> providerkit
 
-<p align="center"><sub>English · <a href="https://github.com/providerkit/.github/blob/main/profile/README.pt-BR.md">Português</a> · <a href="https://github.com/providerkit/.github/blob/main/profile/README.es.md">Español</a></sub></p>
+English · [Português](https://github.com/providerkit/.github/blob/main/profile/README.pt-BR.md) · [Español](https://github.com/providerkit/.github/blob/main/profile/README.es.md)
 
-[providerkit](https://github.com/providerkit/providerkit) lets you call AI models from TypeScript without rewriting your code for each provider. You keep control of what your agent does.
+Call AI models, run agents and build chat screens in TypeScript. Start with the package you need:
 
-- Detect responses that stop arriving, and decide when to retry or switch models.
-- Tell temporary failures apart from account limits and conversations that are too long.
-- Read usage and cost in the same format across providers.
+- [Core](https://providerkit.dev/core/) calls models across providers, streams their replies and tells you which failures are worth retrying.
+- [Agents](https://providerkit.dev/agents/) runs tools and workflows. It can pause for a person's answer or approval before it continues.
+- [React](https://providerkit.dev/react/) gives you chat hooks and optional components for messages and tool activity. Keep your own styles.
 
-No extra packages needed to run it. Works in Node 22+, Bun, Deno, Cloudflare Workers and Chrome extensions.
-
-```sh
-bun add @providerkit/core
-```
-
-[Get started](https://providerkit.dev/guides/getting-started/) · [Documentation](https://providerkit.dev) · [npm](https://www.npmjs.com/package/@providerkit/core)
+[Try a demo](https://providerkit.dev/demos/) without an API key, [open the quickstarts](https://providerkit.dev/start/) or [read the source](https://github.com/providerkit/providerkit).
